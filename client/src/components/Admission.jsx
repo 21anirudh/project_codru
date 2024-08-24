@@ -98,13 +98,9 @@ const Admission = () => {
 
     try {
       const res = await fetch(
-<<<<<<< HEAD
         `https://codru-server.vercel.app/admission/${localStorage.getItem(
           "Username"
         )}`,
-=======
-        `https://codru-server.vercel.app/admission/${localStorage.getItem("Username")}`,
->>>>>>> 65744eadbd47b1d7f38c0311439c0183af3651c9
         {
           method: "POST",
           headers: {
